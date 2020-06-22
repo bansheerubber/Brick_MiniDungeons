@@ -1,0 +1,528 @@
+1 14 8
+SPECIAL
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+u
+x
+x
+x
+x
+x
+x
+d
+
+1
+
+0 0 0
+1 14 8
+COVERAGE:
+0 : 99999
+0 : 99999
+0 : 99999
+0 : 99999
+0 : 99999
+0 : 99999
+---------------- TOP QUADS ----------------
+0
+---------------- BOTTOM QUADS ----------------
+0
+---------------- NORTH QUADS ----------------
+0
+---------------- EAST QUADS ----------------
+22
+
+TEX:SIDE
+POSITION:
+0.5 3 -1
+0.5 5 -1
+0.5 5 -4
+0.5 3 -4
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 -8 2
+0.5 -6 2
+0.5 -6 -1
+0.5 -8 -1
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 0 2
+0.5 2 2
+0.5 2 -1
+0.5 0 -1
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 2 2
+0.5 4 2
+0.5 4 -1
+0.5 2 -1
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 6 2
+0.5 8 2
+0.5 8 -1
+0.5 6 -1
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 1 5
+0.5 3 5
+0.5 3 2
+0.5 1 2
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 -2 8
+0.5 0 8
+0.5 0 5
+0.5 -2 5
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 4 8
+0.5 6 8
+0.5 6 5
+0.5 4 5
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 6 8
+0.5 8 8
+0.5 8 5
+0.5 6 5
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 -7 11
+0.5 -5 11
+0.5 -5 8
+0.5 -7 8
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 -5 11
+0.5 -3 11
+0.5 -3 8
+0.5 -5 8
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 1 11
+0.5 3 11
+0.5 3 8
+0.5 1 8
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 -8 14
+0.5 -6 14
+0.5 -6 11
+0.5 -8 11
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 -2 14
+0.5 0 14
+0.5 0 11
+0.5 -2 11
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 2 14
+0.5 4 14
+0.5 4 11
+0.5 2 11
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 4 14
+0.5 6 14
+0.5 6 11
+0.5 4 11
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 6 14
+0.5 8 14
+0.5 8 11
+0.5 6 11
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 -5 17
+0.5 -3 17
+0.5 -3 14
+0.5 -5 14
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 -1 17
+0.5 1 17
+0.5 1 14
+0.5 -1 14
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 1 17
+0.5 3 17
+0.5 3 14
+0.5 1 14
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+0.5 5 17
+0.5 7 17
+0.5 7 14
+0.5 5 14
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+
+TEX:SIDE
+POSITION:
+0.5 6 20
+0.5 8 20
+0.5 8 17
+0.5 6 17
+UV COORDS:
+0 -0
+1 -0
+1 1
+0 1
+NORMALS:
+1 0 -0
+1 0 -0
+1 0 -0
+1 0 -0
+---------------- SOUTH QUADS ----------------
+0
+---------------- WEST QUADS ----------------
+0
+---------------- OMNI QUADS ----------------
+0
