@@ -14,6 +14,8 @@ exec("./barrel debris.cs");
 exec("./tower support.cs");
 exec("./sketch.cs");
 exec("./wall.cs");
+exec("./floor.cs");
+exec("./ceiling.cs");
 
 datablock AudioProfile(StalagmiteBreakSound) {
 	filename    = "./sounds/stalagmite break.wav";
