@@ -69,3 +69,35 @@ datablock fxDTSBrickData(BrickDungeonsPillar2Data) {
 	uiName = "Pillar 2 ";
 	iconName = "";
 };
+
+datablock fxDTSBrickData(BrickDungeonsRamp1Data) {
+	brickFile = "./bricks/dungeons ramp1 27.blb";
+	category = "Special";
+	subCategory = "DUNGEONS!!!!!!!!";
+	uiName = "Ramp 1 ";
+	iconName = "";
+};
+
+datablock fxDTSBrickData(BrickDungeonsRamp2Data) {
+	brickFile = "./bricks/dungeons ramp2 27.blb";
+	category = "Special";
+	subCategory = "DUNGEONS!!!!!!!!";
+	uiName = "Ramp 2 ";
+	iconName = "";
+};
+
+datablock fxDTSBrickData(BrickDungeonsSupport1Data) {
+	brickFile = "./bricks/dungeons support1 27.blb";
+	category = "Special";
+	subCategory = "DUNGEONS!!!!!!!!";
+	uiName = "Support 1 ";
+	iconName = "";
+};
+
+datablock fxDTSBrickData(BrickDungeonsSupport2Data) {
+	brickFile = "./bricks/dungeons support2 27.blb";
+	category = "Special";
+	subCategory = "DUNGEONS!!!!!!!!";
+	uiName = "Support 2 ";
+	iconName = "";
+};
