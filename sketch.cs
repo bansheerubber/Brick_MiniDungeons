@@ -165,6 +165,15 @@ package MiniDungeonsSketch {
 		}
 	}
 
+	function fxDTSBrickData::onLoadPlant(%this, %obj) {
+		Parent::onPlant(%this, %obj);
+
+		// determine if we're a bottom, middle, or top brick
+		if(%this.isSketchBrick) {
+			%this.determineType(%obj, 3);
+		}
+	}
+
 	function fxDTSBrickData::onDeath(%this, %obj) {
 		if(%obj.isPlanted && %this.isSketchBrick) {
 			%upBrick = %obj.getUpBrick(0);

@@ -16,6 +16,8 @@ function brick1x1x5Data::onBrickDamageKilled(%this, %brick, %attacker, %damageTy
 
 	// if more than 2 supports are destroyed, knock down the entire tower
 	if(%count >= 2) {
+		%brick.getGroup().NTObjectCall("_cannon_breakable_" @ %id, "killBrick");
+		
 		for(%i = 1; %i <= 4; %i++) {
 			%testBrick = "_support_" @ %i @ "_" @ %id @ "_hp100";
 			%breakableBrick = "_support_breakable_" @ %id @ "_" @ %i;
@@ -53,6 +55,20 @@ function brick1x1x5Data::onBrickDamageKilled(%this, %brick, %attacker, %damageTy
 
 		%brick.delete();
 	}
+}
+
+function fxDtsBrick::killAllBricks(%this) {
+	%this.allBrickKill = true;
+	
+	for(%i = %this.getNumUpBricks() - 1; %i >= 0; %i--) {
+		%brick = %this.getUpBrick(%i);
+
+		if(!%brick.allBrickKill) {
+			%brick.killAllBricks();
+		}
+	}
+
+	%this.killBrick();
 }
 
 function brick1x1x5Data::brickDamage(%this, %brick, %attacker, %position, %damage, %damageType) {
