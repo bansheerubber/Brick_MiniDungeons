@@ -57,20 +57,6 @@ function brick1x1x5Data::onBrickDamageKilled(%this, %brick, %attacker, %damageTy
 	}
 }
 
-function fxDtsBrick::killAllBricks(%this) {
-	%this.allBrickKill = true;
-	
-	for(%i = %this.getNumUpBricks() - 1; %i >= 0; %i--) {
-		%brick = %this.getUpBrick(%i);
-
-		if(!%brick.allBrickKill) {
-			%brick.killAllBricks();
-		}
-	}
-
-	%this.killBrick();
-}
-
 function brick1x1x5Data::brickDamage(%this, %brick, %attacker, %position, %damage, %damageType) {
 	Parent::brickDamage(%this, %brick, %attacker, %position, %damage, %damageType);
 
