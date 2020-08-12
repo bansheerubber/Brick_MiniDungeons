@@ -18,6 +18,7 @@ exec("./ceiling.cs");
 exec("./sketch.cs");
 exec("./stalagmites.cs");
 exec("./stalactites.cs");
+exec("./potion refill.cs");
 
 deActivatePackage(MiniDungeonsDoors);
 package MiniDungeonsDoors {
