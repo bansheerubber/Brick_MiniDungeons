@@ -20,5 +20,7 @@ function BrickWoodBarrelData::onBreak(%this, %obj, %col) {
 
 	serverPlay3dTimescale(CrateBreakSound, %obj.getPosition(), getRandom(8, 12) / 10);
 
+	spawnPickup(%obj.getPosition());
+
 	%obj.delete();
 }

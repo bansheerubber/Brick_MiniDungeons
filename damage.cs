@@ -6,8 +6,8 @@ function fxDTSBrickData::brickDamage(%this, %brick, %attacker, %position, %damag
 	}
 }
 
-deActivatePackage(BrickDamage);
-package BrickDamage {
+deActivatePackage(MiniDungeonsBrickDamage);
+package MiniDungeonsBrickDamage {
 	function fxDTSBrick::setName(%this, %name) {
 		Parent::setName(%this, %name);
 
@@ -24,4 +24,4 @@ package BrickDamage {
 		}
 	}
 };
-activatePackage(BrickDamage);
+activatePackage(MiniDungeonsBrickDamage);
